@@ -33,7 +33,8 @@
 		    "position": "/NOFC/CeilingLeftControllerTracker",
 		    "orientation": "/com_osvr_Nolo/LYRobotix Nolo/tracker/2",
 		    "flipButton": "/NOFC/flipButton",
-		    "flipOrigin": "/com_osvr_Nolo/LYRobotix Nolo/tracker/1"
+            "flipOrigin": "/com_osvr_Nolo/LYRobotix Nolo/tracker/1",
+            "timestamp":  "position"
 		}
 	    },
 	    {
@@ -44,7 +45,8 @@
 		    "position": "/NOFC/CeilingRightControllerTracker",
 		    "orientation": "/com_osvr_Nolo/LYRobotix Nolo/tracker/3",
 		    "flipButton": "/NOFC/flipButton",
-		    "flipOrigin": "/com_osvr_Nolo/LYRobotix Nolo/tracker/1"
+            "flipOrigin": "/com_osvr_Nolo/LYRobotix Nolo/tracker/1",
+            "timestamp":  "position"
 		}
 	    }
 	    /* --- End NOFC Drivers --- */
