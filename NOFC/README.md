@@ -8,7 +8,7 @@ Thank you for testing the BETA of the Nolo OSVR Fusion Configuration (NOFC)!
 
 #### v0.3.0 RC2 - February 16, 2018
 
-* **Release Candidate 2:** This release candidate has not been extensively tested, but functions well during short-term testing. Please provide as much feed back as possible at https://github.com/lajoie/NOFC/issues
+* **Release Candidate 2:** This release candidate has not been extensively tested, but functions well during short-term testing. Please provide as much feed back as possible at https://github.com/johnlajoie/NOFC/issues
 
 * **Complete rework of Windows version of Nolo-OSVR** - we gave in and switched over to LYRobotix's "HIDAPI", which gives better tracking results than reading USB packets directly. Performance should be improved for Windows users on all versions of NOLO firmware.
 	* You still should ***not*** install the official NOLO drivers. 
@@ -16,7 +16,7 @@ Thank you for testing the BETA of the Nolo OSVR Fusion Configuration (NOFC)!
 	* Note that the headset marker button was NOT implemented in the new version of the driver. We're sorry if you miss this, but we just didn't have the time to work it in.
 
 * **Implemented velocity tracking** - Controllers now report velocity to SteamVR, meaning you can throw things in games, among other uses!
-	* RC2 has improved the handling of linear and angular velocity information so throwing should be improved. If you have issues please report them at https://github.com/lajoie/NOFC/issues.
+	* RC2 has improved the handling of linear and angular velocity information so throwing should be improved. If you have issues please report them at https://github.com/johnlajoie/NOFC/issues.
 	
 * **Implemented ceiling mode** - In RC2 we have done away with the special ceiling mode configuration files. (NEED TO DESCRIBE NEW METHOD TO ENABLE CEILING MODE.)
 
@@ -26,7 +26,7 @@ Thank you for testing the BETA of the Nolo OSVR Fusion Configuration (NOFC)!
 
 This new configuration combines the Nolo-OSVR plugin, the OSVR-Fusion plugin, and the official SteamVR-OSVR driver for a more enjoyable experience using Nolo hardware with OSVR.
 
-Please note that the dedicated community members working on NOFC have volunteered their time to make these improvements; please respect their efforts. You will _probably_ encounter bugs and glitches - please report these to https://github.com/lajoie/NOFC/issues
+Please note that the dedicated community members working on NOFC have volunteered their time to make these improvements; please respect their efforts. You will _probably_ encounter bugs and glitches - please report these to https://github.com/johnlajoie/NOFC/issues
 
 ## Advantages of NOFC:
 
