@@ -1,4 +1,4 @@
-# Nolo OSVR Fusion Configuration v0.3 (Alternare johnlajoie version)
+# Nolo OSVR Fusion Configuration v0.3    (Alternate johnlajoie version)
 
 Thank you for testing the BETA of the Nolo OSVR Fusion Configuration (NOFC)!
 
