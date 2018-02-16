@@ -1,6 +1,9 @@
-# NOFC - NOLO OSVR Fusion Configuration (JohnLajoie version)
+# NOFC - Alternate NOLO OSVR Fusion Configuration 
+# (johnlajoie version)
 
-This repository will hold the latest binary distributions (or links to the latest binary distributions) of the Nolo OSVR Fusion Configuration.
+This repository will hold the latest binary distributions (or links to the latest binary distributions) of the Alternate Nolo OSVR Fusion Configuration (johnlajoie version).  If you are looking for the official NOFC repository by @nanospork, you can find it [here](https://github.com/nanospork/NOFC). 
+
+This repository is not intended to supplant the official repository by @nanospork, but instead it provides me a way to roll up and make available for testing changes and new features before they are merged into the official NOFC. 
 
 ## Downloading and Installing
 
