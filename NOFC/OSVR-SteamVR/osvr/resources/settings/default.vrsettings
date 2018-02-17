@@ -23,10 +23,11 @@
         "verticalRefreshRate": 0.0,
         "HMD_ignoreVelocityReports": true,
         "ignoreVelocityReports": false,
-        "ignoreAngularVelocityReports": false,
-        "ignoreAccelerationReports": true,
+        "ignoreAngularVelocityReports": true,
+        "ignoreAccelerationReports": false,
         "ignoreAngularAccelerationReports": true, 
-	   "linearVelocityMultiplier": 1.0
+	   "linearVelocityMultiplier": 1.5,
+	   "linearAccelerationMultiplier": 1.0
     }
 }
 
