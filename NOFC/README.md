@@ -111,7 +111,7 @@ Next we need to install the Nolo-OSVR plugin so the Nolo devices can talk to OSV
 	2. Copy and paste the contents of the `OSVR-Core` folder in this download into the `OSVR-Core` folder in your HDK Software Suite directory.
 		1. If it asks "Do you want to merge?" or "Do you want to overwrite" for any folders or files, say Yes To All
 
-### Step 3.1: Ceiling Mode
+### Step 3b: Ceiling Mode
 
 In order to use ceiling mode (with the Nolo base station mounted on the ceiling), copy the file com_osvr_Nolo.dll over the file of the same name in the 'OSVR-Core\bin\osvr-plugins-0' folder in your HDK Software Suite directory.  If you will be uning the Nolo base station normally, skip this step. 
 
