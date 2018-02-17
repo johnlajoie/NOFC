@@ -14,9 +14,9 @@ Thank you for testing the BETA of the Nolo OSVR Fusion Configuration (NOFC)!
 	* You still should ***not*** install the official NOLO drivers. 
 	* The Linux version of the driver was updated with some attempts at reading velocity, but the stability is unknown.
 	* Note that the headset marker button was NOT implemented in the new version of the driver. We're sorry if you miss this, but we just didn't have the time to work it in.
+	* The Nolo SDK (NoLo_USBHID.dll) distributed with NOFC has been patched so that it no longer overwrites the SteamVR chaperone_info.vrchap.  This means that you won't have to re-run Room Setup every time you run SteamVR!
 
-* **Implemented velocity tracking** - Controllers now report velocity to SteamVR, meaning you can throw things in games, among other uses!
-	* RC2 has improved the handling of linear and angular velocity information so throwing should be improved. If you have issues please report them at https://github.com/johnlajoie/NOFC/issues.
+* **Implemented velocity tracking** - Controllers now report velocity to SteamVR, meaning you can throw things in games, among other uses! RC2 has improved the handling of linear and angular velocity information so throwing should be improved. If you have issues please report them at https://github.com/johnlajoie/NOFC/issues.
 
 * **More configuration options** 
 
@@ -29,14 +29,12 @@ Thank you for testing the BETA of the Nolo OSVR Fusion Configuration (NOFC)!
 * **Implemented default marker offset** - A default offset for the headset marker has been added. 
 	* This should reduce the feeling of the headset rotating incorrectly, as if it were on the end of a "turtle neck." 
 	* This offset can easily be edited by changing the "translate" array under "/NOFC/HeadTracker" in the config file.
+	
+* **Implemented a new Nolo controller model** - RC2 includes a Nolo controller model with functional buttons, trigger, touchpad, etc. In SteamVR you will now see the Nolo controller and be able to take advantage of applications that highlight parts of the controller for hints, etc. Plus it looks really cool!
 
 This new configuration combines the Nolo-OSVR plugin, the OSVR-Fusion plugin, and the official SteamVR-OSVR driver for a more enjoyable experience using Nolo hardware with OSVR.
 
 Please note that the dedicated community members working on NOFC have volunteered their time to make these improvements; please respect their efforts. You will _probably_ encounter bugs and glitches - please report these to https://github.com/johnlajoie/NOFC/issues
-
-* **Implemented a new Nolo controller model**
-
-RC2 includes a Nolo controller model with functional buttons, trigger, touchpad, etc. In SteamVR you will now see the Nolo controller and be able to take advantage of applications that highlight parts of the controller for hints, etc. Plus it looks really cool!
 
 ## Advantages of NOFC:
 
