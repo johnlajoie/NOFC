@@ -18,7 +18,7 @@ Thank you for testing the BETA of the Nolo OSVR Fusion Configuration (NOFC)!
 * **Implemented velocity tracking** - Controllers now report velocity to SteamVR, meaning you can throw things in games, among other uses!
 	* RC2 has improved the handling of linear and angular velocity information so throwing should be improved. If you have issues please report them at https://github.com/johnlajoie/NOFC/issues.
 	
-Want to throw like a god? In the file 'OSVR-SteamVR\osvr\resources\settings\default.vrsettings' change the linearVelocityMultiplier value to somthing greater than 1.0 and restart SteamVR. This parameter will scale the velocities reported by the nolo driver and can be used to compensate if you find things like throwing items weak.  
+	* Want to throw like a god? In the file 'OSVR-SteamVR\osvr\resources\settings\default.vrsettings' change the **linearVelocityMultiplier** value to somthing greater than 1.0 and restart SteamVR. This parameter will scale the velocities reported by the nolo driver and can be used to compensate if you find things like throwing items weak.  
 	
 * **Implemented ceiling mode** - In RC2 we have done away with the special ceiling mode configuration files and all the necessary transformations are included in the OSVR hardware driver. This is necessary because we need to transform all vector quantities - position, veclocity and acceleration - and we can't do that from the OSVR server file.  The down side is that we need to distribute a special driver for ceiling mode; see the installation instructions below. 
 
