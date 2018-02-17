@@ -18,7 +18,9 @@ Thank you for testing the BETA of the Nolo OSVR Fusion Configuration (NOFC)!
 * **Implemented velocity tracking** - Controllers now report velocity to SteamVR, meaning you can throw things in games, among other uses!
 	* RC2 has improved the handling of linear and angular velocity information so throwing should be improved. If you have issues please report them at https://github.com/johnlajoie/NOFC/issues.
 	
-* **Implemented ceiling mode** - In RC2 we have done away with the special ceiling mode configuration files. (NEED TO DESCRIBE NEW METHOD TO ENABLE CEILING MODE.)
+Want to throw like a god? In the file 'OSVR-SteamVR\osvr\resources\settings\default.vrsettings' change the linearVelocityMultiplier value to somthing greater than 1.0 and restart SteamVR. This parameter will scale the velocities reported by the nolo driver and can be used to compensate if you find things like throwing items weak.  
+	
+* **Implemented ceiling mode** - In RC2 we have done away with the special ceiling mode configuration files and all the necessary transformations are included in the OSVR hardware driver. This is necessary because we need to transform all vector quantities - position, veclocity and acceleration - and we can't do that from the OSVR server file.  The down side is that we need to distribute a special driver for ceiling mode; see the installation instructions below. 
 
 * **Implemented default marker offset** - A default offset for the headset marker has been added. 
 	* This should reduce the feeling of the headset rotating incorrectly, as if it were on the end of a "turtle neck." 
@@ -27,6 +29,10 @@ Thank you for testing the BETA of the Nolo OSVR Fusion Configuration (NOFC)!
 This new configuration combines the Nolo-OSVR plugin, the OSVR-Fusion plugin, and the official SteamVR-OSVR driver for a more enjoyable experience using Nolo hardware with OSVR.
 
 Please note that the dedicated community members working on NOFC have volunteered their time to make these improvements; please respect their efforts. You will _probably_ encounter bugs and glitches - please report these to https://github.com/johnlajoie/NOFC/issues
+
+* **Implemented a new Nolo controller model**
+
+RC2 includes a Nolo controller model with functional buttons, trigger, touchpad, etc. In SteamVR you will now see the Nolo controller and be able to take advantage of applications that highlight parts of the controller for hints, etc. Plus it looks really cool!
 
 ## Advantages of NOFC:
 
@@ -104,6 +110,10 @@ Next we need to install the Nolo-OSVR plugin so the Nolo devices can talk to OSV
 	1. Navigate to your HDK-Software-Suite installation.
 	2. Copy and paste the contents of the `OSVR-Core` folder in this download into the `OSVR-Core` folder in your HDK Software Suite directory.
 		1. If it asks "Do you want to merge?" or "Do you want to overwrite" for any folders or files, say Yes To All
+
+### Step 3.1: Ceiling Mode
+
+In order to use ceiling mode (with the Nolo base station mounted on the ceiling), copy the file com_osvr_Nolo.dll over the file of the same name in the 'OSVR-Core\bin\osvr-plugins-0' folder in your HDK Software Suite directory.  If you will be uning the Nolo base station normally, skip this step. 
 
 ### Step 4: Choose a server configuration
 
