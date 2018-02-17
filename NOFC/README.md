@@ -84,8 +84,6 @@ _I recommend putting these lines at the very top of the file, just below the ver
 
 If your `steamvr.vrsettings` file contains the line `ignoreVelocityReports`, please ensure that the value is set to **false**, as below:
 
-(UPDATE TO INCLUDE ANGULAR QUANTITIES?) - after testing
-
 ```
    "osvr" : {
       "ignoreVelocityReports" : false
