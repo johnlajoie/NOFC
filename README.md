@@ -6,7 +6,7 @@ This repository is not intended to supplant the official repository by @nanospor
 
 ## Downloading and Installing
 
-Download the latest version from the [Releases](https://github.com/johnlajoie/NOFC/release) section, then follow the included installation instructions.
+Download the latest version from the [Releases](https://github.com/johnlajoie/NOFC/releases) section, then follow the included installation instructions.
 
 ## Bug Reporting and Issues
 
